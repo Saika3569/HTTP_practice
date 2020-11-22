@@ -5,57 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <script src="https://kit.fontawesome.com/129f65744f.js" crossorigin="anonymous"></script>
   <title>Document</title>
-  <style>
-    a {
-      text-decoration: none;
-    }
-
-    .container {
-      text-align: center;
-    }
-
-    .header .container {
-      background-color: aqua;
-    }
-
-    img {
-      vertical-align: middle;
-    }
-  </style>
 </head>
 
 <body>
   <div class="header">
     <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div>
+      <div class="row g-1">
+        <div class="col-2">
+          <div class="btn">
+            <label for="menu">
+              <span>選項</span>
+            </label></div>
+        </div>
+        <div class="col-5 col-md-3">
+          <div class="logo">
             <a href="">Lanba</a>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-5 col-md-3">
           <div>
-            <nav>
-              <a href="#">Home</a>
-              <a href="#">About us</a>
-              <a href="#">Courses</a>
-              <a href="#">Gallery</a>
-              <a href="#">Contact us</a>
-            </nav>
+            <a href="">+1 800 598 78 87</a>
           </div>
         </div>
-        <div class="col-4">
-          <div>
-            <span>+1 800 598 78 87</span>
-          </div>
+        <div class="col-md-6">
+          <input type="checkbox" id="menu">
+          <nav class="link">
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Courses</a>
+            <a href="">Gallery</a>
+            <a href="">Contact us</a>
+          </nav>
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
+
+  <div class="section title">
     <div class="container">
-      <div class="row">
+      <div class="row g-1">
         <div class="col-12">
           <div class="text">
             <h1>Open the world of opportunities!</h1>
@@ -66,15 +58,16 @@
       </div>
     </div>
   </div>
-  <div class="section">
+
+  <div class="section main">
     <div class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row g-1">
+        <div class="col-12 col-md-6">
           <div class="pic">
-            <img src="https://picsum.photos/300/300/?random=1">
+            <img src="images/page01_img02.png">
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="text">
             <h2>Studying Foreign Languages</h2>
             <h3>Every foreign language has its own momentum.</h3>
@@ -90,9 +83,9 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section reasons">
     <div class="container">
-      <div class="row">
+      <div class="row g-3">
         <div class="col-12">
           <div>
             <h2>6 reasons to start learning language</h2>
@@ -101,11 +94,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="row">
+      <div class="row g-1">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/gb.png">
             </div>
             <div class="text">
               <h3>English is spoken all over the world</h3>
@@ -115,10 +108,10 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/pg.png">
             </div>
             <div class="text">
               <h3>International business requires English</h3>
@@ -131,11 +124,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="row">
+      <div class="row g-1">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/ca.png">
             </div>
             <div class="text">
               <h3>ducation and research opportunities</h3>
@@ -145,10 +138,10 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/gl.png">
             </div>
             <div class="text">
               <h3>A perfect language for traveling</h3>
@@ -161,11 +154,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="row">
+      <div class="row g-1">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/png.png">
             </div>
             <div class="text">
               <h3>The language of cinema and music</h3>
@@ -175,10 +168,10 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="flex">
             <div class="pic">
-              <img src="https://picsum.photos/80/80/?random=3">
+              <img src="images/bk.png">
             </div>
             <div class="text">
               <h3>Hemingway and Harry Potter</h3>
@@ -191,15 +184,15 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section special">
     <div class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row g-1">
+        <div class="col-12 col-md-6">
           <div class="pic">
-            <img src="https://picsum.photos/300/300/?random=1">
+            <img src="images/page01_img03.png">
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div class="text">
             <h2>Our Language Center is an official distributor of Oxford University Press</h2>
             <h3>We offer a wide range of books for teachers and students.</h3>
@@ -211,27 +204,29 @@
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section connect">
     <div class="container">
-      <div class="row">
+      <div class="row g-1">
         <div class="col-12">
           <div class="text">
             <h2>Get your free e-mail course!</h2>
             <p>30 lessons per week, Upper-Intermediate to Advanced levels, course length: 4, 8-12 weeks</p>
-            <input type="text">
+            <div>
+              <input type="text">
+            </div>
             <a href="">I WANT A COURSE</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section result">
     <div class="container">
-      <div class="row">
+      <div class="row g-1">
         <div class="col-12">
           <div class="text">
             <h2>What our students are saying</h2>
-            <img src="" alt="">
+            <img src="images/page01_img04.png" alt="">
             <p>Your business program, the flexbility with scheduling, the teachers and directors are very easygiong, The
               location is
               perfect, the prices are excellent compared to other schools.</p>
@@ -243,39 +238,42 @@
   </div>
   <div class="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div>
+      <div class="row g-1">
+        <div class="col-12 col-md-3">
+          <div class="logo">
             <a href="">Langerba</a>
           </div>
         </div>
-        <div class="col-4">
-          <div>
-            <nav>
-              <a href="#">Home</a>
-              <a href="#">About us</a>
-              <a href="#">Courses</a>
-              <a href="#">Gallery</a>
-              <a href="#">Contact us</a>
-            </nav>
-          </div>
+        <div class="col-12 col-md-5">
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Courses</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact us</a>
+          </nav>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
           <div>
-            <span>9999999999</span>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
           </div>
         </div>
       </div>
     </div>
+    <div class="divider"></div>
     <div class="container">
-      <div class="row">
+      <div class="row g-1">
         <div class="col-12">
           <div class="text">
             <p>2020. All Langerba financings are subject to eligibility, credit and underwriting approval. The programs
               advertised on
               this page are not a commitment or guarantee from Langerba to provide funds. Programs, rates and other
               terms & conditions
-              on this page are subject to change without notice. Privacy Policy</p>
+              on this page are subject to change without notice. <a href="">Privacy Policy</a></p>
           </div>
         </div>
       </div>
